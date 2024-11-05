@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - Pokémon</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Pokémon</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="evento.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="inicia_sesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="perfil-usuario">
+            <h1>Perfil de Usuario</h1>
+            <div class="info-personal">
+                <img src="../img/inicio-sesion.png" alt="Foto de perfil" class="foto-perfil">
+                <div class="datos-usuario">
+                    <h2>Juan Pérez</h2>
+                    <p>Email: juan@example.com</p>
+                    <p>Miembro desde: Enero 2024</p>
+                </div>
+            </div>
+            <div class="editar-perfil">
+                <h3>Editar Información</h3>
+                <form class="formulario-editar-perfil">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" value="Juan Pérez">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="juan@example.com">
+
+                    <label for="password">Nueva Contraseña:</label>
+                    <input type="password" id="password" name="password">
+
+                    <button type="submit">Guardar Cambios</button>
+                </form>
+            </div>
+            <div class="eventos-usuario">
+                <h3>Mis Eventos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Fecha</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fiesta de Verano</td>
+                            <td>15 de Julio, 2024</td>
+                            <td>Confirmado</td>
+                        </tr>
+                        <tr>
+                            <td>Taller de Cocina</td>
+                            <td>22 de Agosto, 2024</td>
+                            <td>Pendiente</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+        <div class="enlaces-footer">
+            <a href="#">Política de Privacidad</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </footer>
+</body>
+</html>
